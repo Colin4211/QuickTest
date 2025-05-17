@@ -13,14 +13,14 @@
 
 int  main( int argC, const char * argV[] )
 {
-	printf( "print_args - The Application\n" );
+	printf( "---===> print_args <===---\n" );
 	printf( "---------------------------------------------\n" );
 	for ( int nIndex = 0; nIndex < argC; nIndex++ )
 	{
-		printf( "ARG[%d] -->%s<--\n", nIndex, argV[nIndex] );
+		printf( "argV[%d] -->%s<--\n", nIndex, argV[nIndex] );
 	}
 	printf( "---------------------------------------------\n" );
-	printf( "All Done\n" );
+	printf( "All Done!\n" );
 	return (0);
 }
 
